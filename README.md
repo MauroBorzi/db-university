@@ -31,3 +31,9 @@ Dopo aver testato le vostre query con MySQL Workbench, riportatele in un file tx
 
 #### Consigli
 Se vi bloccate su una query, non perdeteci troppo tempo, andate avanti alle successive. Per alcune sarà necessario fare un minimo di ricerca nella documentazione
+
+
+1. Selezionare tutti gli studenti nati nel 1990 (160)
+- SELECT *
+FROM `students`
+WHERE YEAR(`date_of_birth`) = 1990
